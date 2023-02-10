@@ -1,0 +1,210 @@
+body {
+	background-color: #e9ebee;
+}
+
+h5, .btn, p {
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h4 {
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+h3 {
+	font-size: 16px;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.content {
+	max-width: 850px;
+}
+
+.content-login {
+	max-width: 500px;
+}
+
+.btn-success {
+	background-color: #005350;
+	border-color: #005350;
+}
+
+nav {
+	background-color: #005350;
+}
+
+nav img {
+	height: 2.5rem;
+}
+
+#movie .card-body {
+	margin: 10px 5px;
+	padding: 0;
+}
+
+#movie .card-body .card-title, #movie .card-body .button {
+	min-height: 50px;
+}
+
+#detail h5, #detail p {
+	font-size: 100%;
+	margin-bottom: 0;
+}
+
+#detail .btn-success {
+	width: 140px;
+}
+
+#detail .list {
+	margin-top: 1rem;
+}
+
+#theater .list-group-item:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+#login img {
+	width: 70%;
+}
+
+#login a {
+	color: #000;
+	font-size: 12px;
+}
+
+#login .btn-success {
+	color: #fff;
+}
+
+#kursi .atas p, #kursi .desc p {
+	margin-bottom: 0;
+}
+
+#kursi .atas img {
+	height: 12px;
+	padding-bottom: 2px;
+	margin-left: 10px;
+}
+
+#kursi hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+	perspective: 1000px;
+	margin-bottom: 30px;
+  }
+
+  .movie-container {
+	margin: 20px 0;
+  }
+  
+  .movie-container select {
+	background-color: #fff;
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 5px 15px 5px 15px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+  }
+  
+  .container {
+	perspective: 1000px;
+	margin-bottom: 30px;
+  }
+  
+  .seat {
+	background-color: #444451;
+	height: 26px;
+	width: 32px;
+	margin: 3px;
+	font-size: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  }
+  
+  .seat.selected {
+	background-color: green;
+  }
+  
+  .seat.sold {
+	background-color: red;
+  }
+  
+  .seat:nth-of-type(2) {
+	margin-right: 18px;
+  }
+  
+  .seat:nth-last-of-type(2) {
+	margin-left: 18px;
+  }
+  
+  .seat:not(.sold):hover {
+	cursor: pointer;
+	transform: scale(1.2);
+  }
+  
+  .showcase .seat:not(.sold):hover {
+	cursor: default;
+	transform: scale(1);
+  }
+  
+  .showcase {
+	background: rgba(0, 0, 0, 0.1);
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #777;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .showcase li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10px;
+  }
+  .showcase li small {
+	margin-left: 2px;
+  }
+  
+  .row {
+	display: flex;
+  }
+  
+  .screen {
+	background-color: rgb(22, 20, 20);
+	height: 120px;
+	width: 100%;
+	margin: 15px 0;
+	transform: rotateX(-48deg);
+	box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+  
+  p.text{
+	  margin: 5px 0;
+  }
+  
+  p.text span{
+	  color: rgb(158, 248, 158);
+  }
